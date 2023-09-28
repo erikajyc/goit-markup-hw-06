@@ -675,6 +675,7 @@ h2 {
     position: relative;
     margin-top: 5px;
     font-size: 12px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  /* .user-contact-field:first-child {
@@ -689,6 +690,7 @@ h2 {
     padding: 8px 16px;
     border-radius: 4px;
     border: 1px solid var(--navy-blue-modal);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .user-contact .user-contact-input {
