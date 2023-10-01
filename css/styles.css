@@ -49,6 +49,7 @@ a {
 .header {
      border-bottom: 1px solid var(--cornflower);
      padding: 24px 0px;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .services {
@@ -204,6 +205,14 @@ h2 {
     letter-spacing: 0.32px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.header-nav-links.active {
+    color: var(--ocean);
+}
+
+.header-nav-links.active::after {
+    width: 100%;
 }
 
 .address-link {
@@ -700,6 +709,7 @@ h2 {
 
  .user-contact textarea {
     resize: none;
+    font-family: inherit;
  }
 
  label.user-contact-checkbox {
